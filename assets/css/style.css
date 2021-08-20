@@ -60,10 +60,10 @@ header nav ul li a {
 }
    
 .hero p {
-       padding: 20px;
-       width: 40%;
-       margin: 20px 40px 10px 12px;
-       
+    position: relative;
+    left: 500px;
+    padding: 20px;
+    width: 40%;       
 }
 
 /* CONTENT */
