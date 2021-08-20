@@ -54,16 +54,29 @@ header nav ul li a {
 
 /* HERO */
 
+.hero {
+    background-color: lightcoral;
+}
+
 .hero h1 {
-    font-size: 200px; 
-   
+    font-size: 300px; 
+    padding: 20px 35px; 
+}
+
+.hero h2 {
+    font-size: 65px;
+    position: relative;
+    left: 6500px;
+    padding: 20px;
+    width: 50%; 
 }
    
 .hero p {
+    font-size: larger;
     position: relative;
-    left: 500px;
+    left: 550px;
     padding: 20px;
-    width: 40%;       
+    width: 20%;       
 }
 
 /* CONTENT */
