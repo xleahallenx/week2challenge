@@ -9,6 +9,11 @@
     padding: 0. lem 0.2em; 
 }
 
+.simple-highlight_hi {
+    background-color: hotpink; 
+    padding: 0. lem 0.2em; 
+}
+
 
 
 header {
@@ -60,13 +65,17 @@ header nav ul li a {
 
 #hero h1 {
     color: white; 
-    font-size: 500px; 
+    font-size: 400px; 
     font-weight: lighter;
     padding: 20px 35px; 
     font-family: 'Courier New', Courier, monospace;
     position: relative;
     left: 200px; 
 
+}
+
+#hero h1:hover {
+    color: black; 
 }
 
 /* ABOUT ME */
@@ -210,6 +219,7 @@ footer h2 {
     }
     header h1 {
         width: 100%;
+    
     }
     header nav ul {
         margin-top: 20px;
