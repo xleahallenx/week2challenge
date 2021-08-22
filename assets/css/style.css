@@ -16,9 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    top: 0;
-
-    
+    top: 0; 
 
 }
 
@@ -29,8 +27,7 @@ header h1 {
     font-weight: lighter;   
     font-size: 1.75vw; 
     margin: 0;
-    
-   
+     
 }
 
 header a {
@@ -74,11 +71,6 @@ header nav ul li a {
 
 /* ABOUT ME */
 
-/*.about-me img {
-    padding: 20px 35px; 
-    float: left;  
-}*/
-
 .about-me p {
     padding: 20px 35px; 
     position: relative; 
@@ -88,15 +80,11 @@ header nav ul li a {
     font-family: 'Courier New', Courier, monospace;
     width: 50%;
 
-
 }
 
-/* CONTENT background-image: url("../../assets/images/tie_dye2.jpg");*/
 
 body {
     background-color: white; 
-    background-size: cover;
-    background-position: center;
     padding: 20px 35px;
     color: black; 
     font-family: 'Courier New', Courier, monospace;
@@ -115,8 +103,6 @@ body {
 }
 
 /* grid adapted from https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ */
-
-
 
 .gallery {
     display: grid;
@@ -215,3 +201,67 @@ footer {
 
 }
 
+/* Media Queries */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS OR SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1 {
+        width: 100%;
+    }
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: right;
+    }
+    header nav ul li a {
+        font-size: 20px; 
+    }
+
+    #hero h1 {
+        font-size: 250px; 
+    }
+
+    .projects h1 {
+        padding: 20px 35px;
+        position: relative;
+        color: white;
+        font-weight: lighter;
+        font-size: 100px;
+
+    }
+    .gallery {
+        display: inline-block
+    }
+
+    .contact h1 {
+            padding: 20px 35px;
+            position: relative;
+            color: white;
+            font-weight: lighter;
+            font-size: 100px;
+    
+    }
+
+
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+    
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+   
+  
+}
