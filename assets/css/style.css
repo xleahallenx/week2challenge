@@ -76,7 +76,6 @@ header nav ul li a {
     position: relative; 
     left: 345px; 
     font-size: 50px;
-    background-color: white; 
     font-family: 'Courier New', Courier, monospace;
     width: 50%;
 
@@ -116,6 +115,10 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+.gallery__img:hover {
+    opacity: 0.5;
+  }
 
 
 
@@ -174,30 +177,26 @@ body {
 
 /* CONTACT */
 
-
-
-.contact {
-    padding: 20px 35px; 
+.contact a {
+    padding: 50px 50px; 
     position: relative; 
     left: 200px; 
-    font-size: 50px;
-    background-color: white; 
+    font-size: 160px;
     font-family: 'Courier New', Courier, monospace;
     width: 50%;
-}
-
-.contact h1 {
-    font-size: 200px;
-    position: relative;
-    left: 200px; 
-    padding: 20px; 
-    width: 50%;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter; 
 }
 
 /* FOOTER */
 
-footer {
+footer h2 {
     font-size: 40px;
+    padding: 20px 35px;
+    font-weight: lighter; 
+    float: right;
+
 
 }
 
