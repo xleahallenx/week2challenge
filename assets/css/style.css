@@ -256,21 +256,7 @@ footer h2 {
     }
 
 
-    footer h2, footer div {
-        text-align: center;
+    footer {
+        text-align: left;
         width: 100%;
     }
-}
-
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-
-    
-}
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-   
-  
-}
