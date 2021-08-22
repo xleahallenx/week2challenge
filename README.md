@@ -5,7 +5,7 @@ A website that shows my ability to create a one page portfolio website.
 
 ## Web Screen Shot
 <img src="./assets/images/top.png"/>
-<img src="./asssets/images/bottom.png"/>
+<img src="./assets/images/bottom.png"/>
 
 ## Built With
 * HTML
@@ -17,4 +17,4 @@ https://xleahallenx.github.io/week2challenge/
 # Contribution
 Made with ❤️ by Leah.
 
-### ©️2021 Oh Hi, Inc 
+### ©️2021 Oh Hi, Inc. 
