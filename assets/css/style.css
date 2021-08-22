@@ -116,10 +116,12 @@ body {
 
 /* grid adapted from https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ */
 
+
+
 .gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 5vw);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
     grid-gap: 15px;
 }
 
@@ -129,42 +131,87 @@ body {
     object-fit: cover;
 }
 
-.gallery__item--3 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
+
 
 .gallery__item--1 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 4;
+
 }
 
 .gallery__item--2{
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.gallery__item--3 {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 4;
     grid-row-end: 6;
 }
 
 .gallery__item--4 {
     grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 6;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 8;
 }
 
+.gallery__item--5 {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 8;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative; 
+  }
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
 /* CONTACT */
+
+
+
+.contact {
+    padding: 20px 35px; 
+    position: relative; 
+    left: 200px; 
+    font-size: 50px;
+    background-color: white; 
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+}
 
 .contact h1 {
     font-size: 200px;
     position: relative;
+    left: 200px; 
     padding: 20px; 
     width: 50%;
 }
 
 /* FOOTER */
+
+footer {
+    font-size: 40px;
+
+}
 
